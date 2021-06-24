@@ -1,0 +1,80 @@
+.titulo-orcamento{
+    font-size: 30px;
+    text-align: center;
+}
+
+header{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+.dica{
+    color: #a8a8a8;
+    font-size: 18px;
+    padding: 20px 10px 0px 20px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label{
+    display:block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+    margin-left: 40px;
+}
+
+.gastos{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    margin-left: 40px;
+    padding: 10px 20px 10px 10px;
+    width: 20%;
+}
+
+.enviar{
+        width:20%;
+        margin: 0px 10px;
+        margin-left: 40px;
+        padding: 15px 20px 10px 10px;
+        background: #ff5e5e;
+        color:#FFFFFF;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor: pointer;
+}
+
+.enviar:hover{
+    transform: scale(1.1);
+}
+
+.valorgasto{
+    position:absolute;
+    left:50%;
+	top:50%;
+	margin-left:-10px;
+	margin-top:-40px;
+    padding: 10px 80px 10px 10px
+}
+
+.valor-gasto{
+    position:absolute;
+    left:50%;
+	top:50%;
+    margin-left: 10px;
+	margin-top:-70px;
+    margin-right: -30px;
+}
+

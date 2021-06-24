@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Orçamento da viagem</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="orcamento.css">
+    </head>
+    
+
+    <body>
+        <header>
+            <h1 class="titulo-orcamento">Descubra qual o orçamento necesssário para fazer a viagem dos seus sonhos!</h1>
+        </header>
+
+        <main>
+            <div>
+                <p class="dica">Dica:ao colocar os valores, utilizar uma margem de 20% a mais.</p>
+            </div>
+            <form class="gastos" name="gastos" id="formulario">
+                
+                <label for="passagem">Passagem(s)</label>
+                <input type="number" id="passagem" class="input-padrao" value=null>
+
+                <label for="combustivel">Combustível</label>
+                <input type="number" id="combustivel" class="input-padrao" value=null>
+
+                <label for="transporte">Transporte na viagem</label>
+                <input type="number" id="transporte" class="input-padrao" value=null>
+
+                <label for="passeios">Passeios</label>
+                <input type="number" id="passeios" class="input-padrao" value=null>
+
+                <label for="alimentacao">Alimentação</label>
+                <input type="number" id="alimentacao" class="input-padrao" value=null>
+
+                <label for="hospedagem">Hospedagem</label>
+                <input type="number" id="hospedagem" class="input-padrao" value=null>
+
+                <label for="compras-planejadas">Compras planejadas</label>
+                <input type="number" id="compras-planejadas" class="input-padrao" value=null>
+
+                <label for="compras-especificas">Compras específicas</label>
+                <input type="number" id="compras-especificas" class="input-padrao" value=null>
+
+                <label for="extra">Extra</label>
+                <input type="number" id="extra" class="input-padrao" value=null>
+
+                <input type="submit" value="Somar" name="somar" class="enviar" onclick="somadorDeGastos()">
+
+                <label class="valor-gasto">O valor gasto é de:</label>
+                <input id="campo" type="text" value ="" name="valorgasto" class="valorgasto" readonly> 
+            </form>
+            <script src="orcamento.js">
+            </script>
+        
+        </main>
+    </body>
+
+</html>
